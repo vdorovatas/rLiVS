@@ -1,6 +1,7 @@
 ## *Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs* 
 ### (NeurIPS'25 - https://arxiv.org/abs/2510.17364)
 ---
+![rLiVS](figs/teaser.jpg)
 Steps
 ---
 - create conda env and install requirements (check below)
