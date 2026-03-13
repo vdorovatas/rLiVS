@@ -1,7 +1,9 @@
 ## *Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs* 
 ### (NeurIPS'25 - https://arxiv.org/abs/2510.17364)
 ---
+ **Pipeline for Efficient Online Processing and Question Answering for Very Long Streaming Videos with *rLiVS*:** Long videos are broken down into short visual clips which are processed in a streaming fashion. A short clip is pre-pended with selected visual tokens from past clips in the stream to generate a textual description. History is accumulated by selecting a subset of tokens from the short clip based on attention scores. (Right): Given a query on the past video, the accumulated textual descriptions over a long video are  compared to the query embedding and the most similar subset is input to the LLM (within the videoLLM) for question-answering. The pipeline is illustrated below:
 ![rLiVS](figs/teaser.jpg)
+
 Steps
 ---
 - create conda env and install requirements (check below)
